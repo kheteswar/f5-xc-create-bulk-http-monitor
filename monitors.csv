@@ -1,0 +1,4 @@
+url,interval,response_codes,sni_host,ignore_cert_errors,follow_redirects,response_timeout_ms,on_failure_count,aws_regions,request_headers,description,labels
+https://f5demo.coderyogi.com/,5m,"2**,3**",,FALSE,TRUE,10000,2,"ap-south-1,ap-southeast-1",User-Agent: F5-XC-Monitor; Accept: */*,Demo monitor for f5demo.coderyogi.com,env=demo;owner=platform
+https://app.example.com/login,1m,"2**,3**",,FALSE,TRUE,8000,2,"ap-south-1,ap-southeast-1",User-Agent: F5-XC-Monitor; Accept: */*,Checks login page responds quickly,env=prod;team=security
+https://api.example.com/health,15m,"2**,3**",,FALSE,TRUE,5000,2,"ap-south-1,ap-southeast-1",User-Agent: F5-XC-Monitor; Accept: */*,API health endpoint monitor,env=stage
